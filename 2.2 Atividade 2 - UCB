@@ -1,0 +1,41 @@
+Acampionatodepiada aumentar;
+// Síntese
+// Objetivo: Descobrir o ganhador do campeonato de piadas
+// Entrada : avaliação dos participantes
+// Saída : Resultado com o vencedor
+
+
+diretor
+	// Declarações
+	
+    real nota1, nota2, nota3;
+    texto concorrente1, concorrente2, concorrente3;
+  
+	// Instruções
+   escreva("Nome do 1° concorrente: ");
+     leia(concorrente1);
+   escreva("Escreve uma nota do(a)candidato(a) ",concorrente1," :");
+   leia (nota1);
+  escreva("Nome do 2° concorrente: ");
+     leia(concorrente2);
+   escreva("Escreve uma nota do(a)candidato(a) ",concorrente2," :");
+   leia (nota2);
+   escreva("Nome do 3° concorrente: ");
+     leia(concorrente3);
+   escreva("Escreve uma nota do(a)candidato(a) ",concorrente3," :");
+   leia (nota3);
+   se((nota1 > nota2) e (nota1 > nota3))entao
+   escreva("Parabéns, " , concorrente1 , " você é o Campeão da competição de piadas de Fortaleza");
+   senao
+         se((nota2 > nota1) e (nota2 > nota3))entao
+         escreva("Parabéns, " , concorrente2 , " você é o Campeão da competição de piadas de Fortaleza");
+         senao
+             se((nota3 > nota1) e (nota3 > nota2))entao
+         escreva("Parabéns, " , concorrente3 , " você é o Campeão da competição de piadas de Fortaleza");
+              senao
+              escreva ("Houve um empate!");
+         
+     fimSe
+        fimSe
+             fimSe
+fim Principal
