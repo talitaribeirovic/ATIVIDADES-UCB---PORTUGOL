@@ -1,0 +1,19 @@
+algoritmo parouimpar;
+// Síntese
+// Objetivo: verificar para ou impar
+// Entrada :sem entrada
+// Saída :identificar par ou impar
+principal
+
+// Declarações
+inteiro numero;
+
+// Instruções
+escreva ("digite um número:");
+leia (numero);
+      se (numero mod 2==0)entao
+      escreva("Par");
+         senao
+         escreva("Impar");
+    fimSe
+fimPrincipal
