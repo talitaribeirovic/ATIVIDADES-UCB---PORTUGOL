@@ -1,0 +1,30 @@
+algoritmo SalarioOperacional;
+// Síntese
+//  Objetivo: Salario Operacional
+//  Entrada : Numero de peças produzidas 
+//  Saída   : Valor total do salario + adicional 
+
+
+principal
+	// Declarações
+	
+ real  pecas, salariototal; 
+ 
+	// Instruções
+	
+escreva("Insira quantidade de peças fabricadas: ");
+leia (pecas);
+      se (pecas<=500)entao
+      escreva("O seu salário base é 240,00");
+             senao
+             se(pecas>=500 e pecas <=750)entao
+             salariototal = (pecas-500)*(0.50)+240;
+             escreva("Salário a ser pago:R$ ", salariototal:2:2);
+                   senao
+                     se(pecas>750)entao
+                     salariototal = (pecas-750)*(0.75)+350;
+                     escreva("Salário a ser pago:R$ ", salariototal:2:2);
+        fimSe
+                 fimSe
+                     fimSe
+fimPrincipal
