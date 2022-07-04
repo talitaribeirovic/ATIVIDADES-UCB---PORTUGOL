@@ -1,0 +1,17 @@
+algoritmo imprimanumeroemordemreversa;
+// Síntese
+//  Objetivo:  contagem de número em ordem reversa
+//  Entrada : numero de inicio de contagem
+//  Saída   : numero em formato regressivo terminando em zero
+
+
+principal
+	// Declarações
+inteiro numero, contador;
+	// Instruções
+ escreva("Insira um número: ");
+ leia (numero);
+    para(contador de numero ate 0 passo -1)faca
+    escreval("Contagem Regressiva: ",contador);
+ fimPara
+fimPrincipal
