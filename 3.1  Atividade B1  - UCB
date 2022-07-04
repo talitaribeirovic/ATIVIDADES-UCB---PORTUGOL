@@ -1,0 +1,17 @@
+algoritmo TabuadaDo7;
+// Síntese
+//  Objetivo:  Imprimir somente valores resultantes da tabuada do 7
+//  Entrada : 
+//  Saída   : valores resultantes da tabela do 07
+
+
+principal
+	// Declarações
+inteiro n;
+	// Instruções
+	escreval("Resultado da tabela do 7");
+ para(n de 0 ate 70 passo 7)faca
+    escreval(n);
+    
+ fimPara
+fimPrincipal
